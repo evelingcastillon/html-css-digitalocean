@@ -1,0 +1,86 @@
+/* HEADER */
+
+/* NAV1 */
+.nav-principal {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo > img {
+    height: 30px;
+    vertical-align: middle;
+    line-height: 50px;
+}
+.logo {
+    line-height: 47px;
+}
+ul>li, a{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    font-size: large;
+    color: rgba(28, 50, 95, 1);
+    font-weight: 500;
+    font-size: medium;
+}
+.menu-center, .menu-right {
+    height: 50px;
+    line-height: 50px;
+}
+.menu-center > li {
+    padding: 0 0.5rem;
+}
+.menu-right > li {
+    padding-left: 1rem;
+}
+.btn_blue {
+    line-height: 35px;
+    display: block;
+    border: 2px solid rgba(11, 112, 255, 1);
+    border-radius: 5px;
+    padding: 0 0.8rem;
+    color: rgba(11, 112, 255, 1);
+}
+
+/* DBG-IMG-HEADER */
+.dbg-banner {
+    background-image: url("../img/bg-banner-home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 3rem 0;
+}
+.banner-text {
+    padding-right: 1rem;
+}
+.banner-text > h1 {
+    font-size: 55px;
+    padding-right: 6rem;
+    padding-bottom: 1rem;
+}
+.banner-text > p {
+    font-size: 24px;
+}
+.sign {
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    color: rgba(28, 50, 95, 1);
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    line-height: 35px;
+}
+.sign > input, .sign > button {
+    margin: 0.8rem 0;
+}
+.sign-google > img {
+    height: 15px;
+    line-height: 15px;
+    vertical-align: middle;
+}
+.font-color-lightblue {
+    color: rgba(11, 112, 255, 1);
+}
