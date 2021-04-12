@@ -21,8 +21,15 @@
 [class*="col-"] {
     float: left;
 }
+/* PADDING */
+.py05 {
+    padding: 0.5rem 0;
+}
 .py1 {
     padding: 1rem 0;
+}
+.py2 {
+    padding: 2rem 0;
 }
 .py3 {
     padding: 3rem 0;
@@ -32,6 +39,13 @@
 }
 .px7 {
     padding: 0 7rem;
+}
+/* UTILY */
+.font-weight {
+    font-weight: 600;
+}
+.font-center {
+    text-align: center;
 }
 /* 0px a 767px - sx | 768px a 991px - md | 992px in su - lg */
 
