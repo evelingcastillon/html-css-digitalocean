@@ -19,10 +19,13 @@ ul>li, a{
     text-decoration: none;
     list-style: none;
     display: inline-block;
-    font-size: large;
-    color: rgba(28, 50, 95, 1);
-    font-weight: 500;
     font-size: medium;
+}
+.menu-center > li > a,
+.menu-right > li > a {
+    font-weight: 500;
+    color:  rgba(28, 50, 95, 1);
+    
 }
 .menu-center, .menu-right {
     height: 50px;
@@ -81,6 +84,51 @@ ul>li, a{
     line-height: 15px;
     vertical-align: middle;
 }
-.font-color-lightblue {
+.color-lightblue {
     color: rgba(11, 112, 255, 1);
+}
+.dbg-lightgray {
+    background-color: rgba(243, 245, 249, 1);
+    color: rgba(111, 123, 151, 1);
+    font-size: 16px;
+}
+.font-weight {
+    font-weight: 600;
+}
+.font-center {
+    text-align: center;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+}
+.brands > [class*="col-"] > img {
+    width: 100%;
+}
+.color-lightgray {
+    color: rgba(117, 128, 154, 1);
+}
+.menu-left {
+    border-left: 2px solid lightslategray;
+    line-height: 35px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+.color-nightblue {
+    color: rgba(28, 50, 95, 1);
+}
+.color-gray {
+    color: rgba(111, 123, 151, 1)
+}
+
+.options > .option {
+    width: 40%;
+}
+.options {
+    display: flex;
+    flex-wrap: wrap;
+
 }

@@ -6,7 +6,7 @@
     font-family: 'Roboto', sans-serif;
 }
 .container {
-    width: 1170px;
+    max-width: 1170px;
     margin: auto;
 }
 .row {
@@ -20,6 +20,18 @@
 
 [class*="col-"] {
     float: left;
+}
+.py1 {
+    padding: 1rem 0;
+}
+.py3 {
+    padding: 3rem 0;
+}
+.px1 {
+    padding: 0 1rem;
+}
+.px7 {
+    padding: 0 7rem;
 }
 /* 0px a 767px - sx | 768px a 991px - md | 992px in su - lg */
 
