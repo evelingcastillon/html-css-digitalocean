@@ -97,6 +97,8 @@ ul>li, a{
     line-height: 15px;
     vertical-align: middle;
 }
+
+/* MAIN */
 .dbg-lightgray {
     background-color: rgba(243, 245, 249, 1);
     color: rgba(111, 123, 151, 1);
@@ -109,12 +111,16 @@ ul>li, a{
 .brands > [class*="col-"] > img {
     width: 100%;
 }
+.description > p {
+    font-size: large;
+}
 .menu-left {
     border-left: 2px solid lightslategray;
     line-height: 35px;
     display: flex;
     flex-direction: column;
     padding-left: 1rem;
+    margin-left: 5rem;
 }
 .options > .option {
     width: 40%;
@@ -149,4 +155,34 @@ ul>li, a{
 .circle:hover {
     cursor: pointer;
     background-color: rgba(11, 112, 255, 1);
+}
+/* REGIONS */
+.dbg-blue-gradient {
+    background-color:blue;
+    color: white;
+}
+.region {
+    font-size: small;
+}
+.cod-region {
+    padding-left: 1rem;
+}
+.link-region {
+    color: rgba(0, 170, 197, 1);
+    font-size: small;
+}
+
+.btn-white {
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.7rem 1rem;
+    font-size: small;
+    margin-top: 1rem;
+}
+
+/* FOOTER */
+.dbg-darkblue {
+    background-color: rgba(3, 28, 78, 1);
+    color: white;
 }

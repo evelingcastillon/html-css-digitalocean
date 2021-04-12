@@ -22,6 +22,12 @@
     float: left;
 }
 /* PADDING */
+.pr05 {
+    padding-right: 0.5rem;
+}
+.pl05 {
+    padding-left: 0.5rem;
+}
 .py05 {
     padding: 0.5rem 0;
 }
@@ -34,13 +40,16 @@
 .py3 {
     padding: 3rem 0;
 }
+.py5 {
+    padding: 5rem 0;
+}
 .px1 {
     padding: 0 1rem;
 }
 .px7 {
     padding: 0 7rem;
 }
-/* UTILY */
+/*FONT UTILY */
 .font-weight {
     font-weight: 600;
 }
